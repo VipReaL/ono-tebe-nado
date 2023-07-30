@@ -1,1 +1,136 @@
 /* место для вашего кода */
+
+/* Вам поможет свойство list-style со значением circle. */
+
+.header {
+
+}
+.header__menu {
+}
+.header__links-list {
+}
+.header__links-list-item {
+  list-style: circle;
+  margin: 20px;
+}
+.header__links-list-item_no-bullit {
+  list-style: none;
+  /* обнулить подчеркивание */
+}
+.header__link {
+}
+.header__link_active {
+}
+.header__logo {
+}
+.header__logo-image {
+}
+.address {
+}
+.header__address {
+}
+
+/* letter-spacing */
+/* word-spacing */
+/* transparent */
+
+
+.cover {
+}
+.overlay {
+}
+.cover__title {
+}
+.aligned-text {
+}
+.letter-spacing-extended {
+}
+.aligned-text_center {
+}
+.aligned-text_right {
+}
+.no-letter-spacing {
+}
+.cover__description {
+}
+.cover__description-text {
+}
+.bet-button {
+}
+
+
+
+
+.lots {
+}
+.lots__heading {
+}
+.lots__card-list {
+}
+.lots__card-list-item {
+}
+.card-link {
+}
+.card {
+}
+.overlay {
+}
+.card__title {
+}
+.card_type_film {
+}
+.card__text {
+}
+.card_type_book {
+}
+.card_type_picture {
+}
+.lots__look-more-link {
+}
+
+
+
+
+
+.about {
+}
+
+/* about__column */
+
+.about__title {
+}
+.about__logo {
+}
+.about__logo-image {
+}
+.about__text {
+}
+
+
+
+
+
+.footer {
+}
+.address {
+}
+.header__address {
+}
+.footer__menu {
+}
+.footer__menu-list {
+}
+.footer__menu-list-item {
+}
+.footer__menu-link {
+}
+.footer__menu-link_active {
+}
+.footer__social-list {
+}
+.footer__social-list-item {
+}
+.footer__social-link {
+}
+.footer__social-icon {
+}
