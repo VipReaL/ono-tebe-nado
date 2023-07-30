@@ -1,33 +1,76 @@
-/* место для вашего кода */
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
-/* Вам поможет свойство list-style со значением circle. */
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+/* .container {
+  max-width: 1340px;
+  margin: 0 auto;
+} */
 
 .header {
+  display: grid;
+  grid-template-columns: 1fr 129px 1fr;
+  grid-template-rows: 293px;
+  gap: 30px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-}
-.header__menu {
-}
+/* .header__menu {
+} */
+
 .header__links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
+
 .header__links-list-item {
   list-style: circle;
-  margin: 20px;
 }
+
 .header__links-list-item_no-bullit {
   list-style: none;
-  /* обнулить подчеркивание */
 }
+
 .header__link {
+  font-size: 18px;
+  font-weight: 400;
 }
+
 .header__link_active {
+  border-bottom: none;
 }
+
+.header__link:hover {
+  border-bottom: none;
+}
+
 .header__logo {
+  max-width: 129px;
+  max-height: 105px;
 }
-.header__logo-image {
-}
+
+/* .header__logo-image {
+  max-width: 129px;
+  max-height: 105px;
+} */
+
 .address {
+  justify-self: end;
 }
+
 .header__address {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.35;
 }
 
 /* letter-spacing */
@@ -36,27 +79,69 @@
 
 
 .cover {
+  height: 757px;
+  background-color: gray;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
+
 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
 }
+
 .cover__title {
+  color: #FFF;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 60px;
+  text-transform: uppercase;
 }
+
 .aligned-text {
+  display: block;
 }
+
 .letter-spacing-extended {
 }
+
 .aligned-text_center {
+  text-align: center;
 }
+
 .aligned-text_right {
+  text-align: right;
 }
+
 .no-letter-spacing {
+  /* класс для обнуления общего межбуквенного расстояния для последней буквы */
 }
+
 .cover__description {
 }
+
 .cover__description-text {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-spacing: 20px;
 }
+
 .bet-button {
+  color: transparent;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
+
 
 
 
@@ -72,9 +157,11 @@
 .card-link {
 }
 .card {
+  position: relative;
 }
-.overlay {
-}
+/* .overlay {
+  Дублируется селектор
+} */
 .card__title {
 }
 .card_type_film {
@@ -112,10 +199,12 @@
 
 .footer {
 }
-.address {
-}
-.header__address {
-}
+/* .address {
+  Дублируется селектор
+} */
+/* .header__address {
+  Дублируется селектор
+} */
 .footer__menu {
 }
 .footer__menu-list {
