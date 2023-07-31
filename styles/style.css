@@ -19,8 +19,8 @@ a {
   grid-template-rows: 293px;
   gap: 30px;
   align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 51px;
+  padding-right: 52px;
 }
 
 /* .header__menu {
@@ -29,7 +29,7 @@ a {
 .header__links-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 32px;
 }
 
 .header__links-list-item {
@@ -69,14 +69,12 @@ a {
 
 .header__address {
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.31;
 }
 
-/* letter-spacing */
-/* word-spacing */
-/* transparent */
-
+/* Старт cover */
 
 .cover {
   height: 757px;
@@ -100,8 +98,8 @@ a {
   color: #FFF;
   font-size: 100px;
   font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: 60px;
+  line-height: 1.24;
+  letter-spacing: 30px;
   text-transform: uppercase;
 }
 
@@ -109,7 +107,18 @@ a {
   display: block;
 }
 
+.aligned-text:first-child {
+  margin-top: 163px;
+  margin-left: 50px;
+}
+
+.aligned-text:last-child {
+  margin-right: 20px;
+  margin-bottom: 122px;
+}
+
 .letter-spacing-extended {
+  /* letter-spacing: 0px; */
 }
 
 .aligned-text_center {
@@ -125,6 +134,11 @@ a {
 }
 
 .cover__description {
+  display: flex;
+  gap: 78px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
 }
 
 .cover__description-text {
@@ -132,36 +146,54 @@ a {
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .bet-button {
-  color: transparent;
+  color: white;
   font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 12px 32px;
 }
 
-
-
-
+/* Старт lots */
 
 .lots {
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
 .lots__heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
+
 .lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
 }
+
 .lots__card-list-item {
+  min-width: 430px;
+  min-height: 450px;
 }
+
 .card-link {
 }
+
 .card {
   position: relative;
 }
+
 /* .overlay {
   Дублируется селектор
 } */
+
 .card__title {
 }
 .card_type_film {
