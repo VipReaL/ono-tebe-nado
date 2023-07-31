@@ -247,27 +247,45 @@ a {
   display: grid;
   grid-template-columns: 430px 1fr;
   grid-template-rows: 240px 1fr;
+  gap: 8px 25px;
   grid-template-areas: 
   "logo title"
   ". text";
+  margin-bottom: 180px;
 }
 
 /* about__column */
 
 .about__title {
   grid-area: title;
+  align-self: center;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .about__logo {
   grid-area: logo;
+  align-self: center;
+  justify-self: center;
   width: 240px;
   height: 240px;
   background-color: black;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.about__logo-image {
-}
+
+/* .about__logo-image {
+} */
+
 .about__text {
   grid-area: text;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* Старт footer */
