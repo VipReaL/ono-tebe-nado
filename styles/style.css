@@ -36,8 +36,9 @@ ul {
   list-style: circle;
 }
 
-/* .header__links-list-item_no-bullit {
-} */
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
 
 .header__link {
   font-size: 18px;
@@ -75,6 +76,10 @@ ul {
 
 .header__address a {
   border-bottom: 1px solid #000;
+}
+
+.header__address a:hover {
+  border-bottom: none;
 }
 
 /* Старт cover */
@@ -161,6 +166,7 @@ ul {
   background-color: transparent;
   border: 1px solid white;
   padding: 12px 32px;
+  cursor: pointer;
   z-index: 1;
 }
 
@@ -240,6 +246,11 @@ ul {
   font-size: 20px;
   font-weight: 400;
   margin-left: 40px;
+  border-bottom: 1px solid black;
+}
+
+.lots__look-more-link:hover {
+  border-bottom: none;
 }
 
 /* Старт about */
@@ -313,6 +324,10 @@ ul {
 
 .footer__address a {
   border-bottom: 1px solid #000;
+}
+
+.footer__address a:hover {
+  border-bottom: none;
 }
 
 .footer__menu {
