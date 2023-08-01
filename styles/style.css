@@ -190,7 +190,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -203,8 +203,10 @@ ul {
 /* .card-link {
 } */
 
-/* .card {
-} */
+.card {
+  display: flex;
+  flex-direction: column;
+}
 
 .card__title {
   position: absolute;
@@ -228,7 +230,7 @@ ul {
   position: absolute;
   left: 40px;
   right: 40px;
-  bottom: 54px;
+  bottom: 50px;
   color: #FFF;
   font-size: 20px;
   font-weight: 400;
