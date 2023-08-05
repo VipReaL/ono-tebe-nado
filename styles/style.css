@@ -56,7 +56,7 @@ ul {
 
 .header__logo {
   justify-self: center;
-  max-width: 129px;
+  max-width: 148px;
   max-height: 105px;
 }
 
@@ -87,6 +87,7 @@ ul {
 .cover {
   background-color: gray;
   background-image: url(../images/cover.jpg);
+  background-position: 50% 43%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -104,42 +105,40 @@ ul {
 }
 
 .cover__title {
-  display: flex;
-  justify-content: space-between;
-  height: 365px;
+  position: relative;
   color: #FFF;
   font-size: 100px;
   font-weight: 700;
-  line-height: 1.2;
   letter-spacing: 30px;
   text-transform: uppercase;
   margin-bottom: 126px;
 }
 
 .aligned-text {
-  z-index: 1;
+  display: block;
+  margin-bottom: 10px;
 }
 
-.aligned-text:nth-child(2) {
-  align-self: center;
-  margin-top: 5px;
-  margin-left: 40px;
+.aligned-text_center {
+  display: block;
+  text-align: center;
+  margin-left: -29px;
+  margin-bottom: 3px;
 }
 
-.aligned-text:last-child {
-  align-self: flex-end;
+.aligned-text_right {
+  display: block;
+  text-align: end;
 }
 
 .letter-spacing-extended {
-  margin-left: -25px;
-}
-
-.letter-spacing-end {
-  margin-right: -20px;
+  display: inline-block;
+  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
-  margin-right: -30px;
+  display: inline-block;
+  letter-spacing: 0px;
 }
 
 .cover__description {
