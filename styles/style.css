@@ -204,30 +204,22 @@ ul {
   justify-content: space-between;
   height: 100%;
   padding: 50px 40px;
+  background-color: black;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card_type_film {
-  background-color: black;
   background-image: url(../images/card-lot-01.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_book {
-  background-color: black;
   background-image: url(../images/card-lot-02.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
-  background-color: black;
   background-image: url(../images/card-lot-03.jpg);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card__title {
